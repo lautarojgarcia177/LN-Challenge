@@ -9,7 +9,7 @@ export default function ArticleGrid() {
     <section className="row-gap-tablet-2 row-gap-deskxl-3 hlp-degrade">
       {subtype7Articles.slice(0, amountToDisplay).map((article, index) => (
         <div key={article._id}>
-          {/* Insert mobile banner after every 3 articles */}
+          {/* Insertar el banner mobile cada 3 articulos */}
           {index > 0 && index % 3 === 0 && (
             <div
               key={`banner-${index}`}
