@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sumarizeTags coincide con la snapshot 1`] = `
+[
+  {
+    "count": 2,
+    "slug": "tag1",
+    "text": "Tag 1",
+  },
+  {
+    "count": 1,
+    "slug": "tag2",
+    "text": "Tag 2",
+  },
+  {
+    "count": 1,
+    "slug": "tag3",
+    "text": "Tag 3",
+  },
+]
+`;

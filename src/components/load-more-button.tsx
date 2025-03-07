@@ -8,7 +8,7 @@ export default function LoadMoreButton() {
   // Si no hay mas articulos que mostrar, no renderizar el boton
   if (subtype7Articles.length >= amountToDisplay) {
     return (
-      <button className="--btn --secondary" onClick={() => loadMoreArticles(9)}>
+      <button data-testid="load-more-btn" className="--btn --secondary" onClick={() => loadMoreArticles(9)}>
         MÁS NOTAS DE ACUMULADO GRILLA
       </button>
     );

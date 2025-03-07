@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleGrid coincide con la snapshot 1`] = `
+<div>
+  <section
+    class="row-gap-tablet-2 row-gap-deskxl-3 hlp-degrade"
+  >
+    <div>
+      <article
+        class="mod-caja-nota w-100-mobile"
+      >
+        <section
+          class="cont-figure"
+        >
+          <a
+            class="figure"
+            href=""
+          >
+            <picture
+              class="content-pic picture"
+            >
+              <img
+                alt=""
+                class="content-img"
+                src="https://resizer.glanacion.com/resizer/p3oaYfEpZiXQkKOfqHkFKhkcbu4=/0x300/filters:quality(75)/arc-anglerfish-arc2-prod-lanacionar/public/FRS7GJ6XZJCKHDDISLQTRG33UE.jpg"
+              />
+            </picture>
+          </a>
+        </section>
+        <div
+          class="mod-caja-nota__descrip"
+        >
+          <h2
+            class="com-title-acu"
+          >
+            <a
+              href=""
+            >
+              <b>
+                Arroz con Leche
+                .
+              </b>
+               
+              Gentileza: Malcriado-Entre fuegos y vinos
+            </a>
+          </h2>
+          <h4
+            class="com-date"
+          >
+            6 de diciembre de 2019
+          </h4>
+        </div>
+      </article>
+    </div>
+    <div>
+      <article
+        class="mod-caja-nota w-100-mobile"
+      >
+        <section
+          class="cont-figure"
+        >
+          <a
+            class="figure"
+            href=""
+          >
+            <picture
+              class="content-pic picture"
+            >
+              <img
+                alt=""
+                class="content-img"
+                src="https://resizer.glanacion.com/resizer/p3oaYfEpZiXQkKOfqHkFKhkcbu4=/0x300/filters:quality(75)/arc-anglerfish-arc2-prod-lanacionar/public/FRS7GJ6XZJCKHDDISLQTRG33UE.jpg"
+              />
+            </picture>
+          </a>
+        </section>
+        <div
+          class="mod-caja-nota__descrip"
+        >
+          <h2
+            class="com-title-acu"
+          >
+            <a
+              href=""
+            >
+              <b>
+                NOTA RECETA DE PRUEBA (DO NOT DELETE (Ú.Ú) )
+                .
+              </b>
+               
+              Gentileza: Malcriado-Entre fuegos y vinos
+            </a>
+          </h2>
+          <h4
+            class="com-date"
+          >
+            3 de diciembre de 2019
+          </h4>
+        </div>
+      </article>
+    </div>
+    <div>
+      <article
+        class="mod-caja-nota w-100-mobile"
+      >
+        <section
+          class="cont-figure"
+        >
+          <a
+            class="figure"
+            href=""
+          >
+            <picture
+              class="content-pic picture"
+            >
+              <img
+                alt=""
+                class="content-img"
+                src="https://resizer.glanacion.com/resizer/S01DKRIeLbicU98vPKONz_V0ACw=/0x300/filters:quality(75)/arc-anglerfish-arc2-prod-lanacionar/public/SE3ZGTPDINCX3LLSPF4PQVTQCI.jpg"
+              />
+            </picture>
+          </a>
+        </section>
+        <div
+          class="mod-caja-nota__descrip"
+        >
+          <h2
+            class="com-title-acu"
+          >
+            <a
+              href=""
+            >
+              <b>
+                Risotto con alcauciles y frutos de mar
+                .
+              </b>
+               
+              Gentileza: LAdesso
+            </a>
+          </h2>
+          <h4
+            class="com-date"
+          >
+            29 de octubre de 2019
+          </h4>
+        </div>
+      </article>
+    </div>
+    <div>
+      <div
+        class="banner --small --mobile"
+      />
+      <article
+        class="mod-caja-nota w-100-mobile"
+      >
+        <section
+          class="cont-figure"
+        >
+          <a
+            class="figure"
+            href=""
+          >
+            <picture
+              class="content-pic picture"
+            >
+              <img
+                alt=""
+                class="content-img"
+                src="https://resizer.glanacion.com/resizer/0VDGcd2kCetmI_AQ0v_g-ZS6F9w=/0x300/filters:quality(75)/arc-anglerfish-arc2-prod-lanacionar/public/2LZ4HW7OURDGDA6KHYW72TXKMI.jpg"
+              />
+            </picture>
+          </a>
+        </section>
+        <div
+          class="mod-caja-nota__descrip"
+        >
+          <h2
+            class="com-title-acu"
+          >
+            <a
+              href=""
+            >
+              <b>
+                Yakimeshi de pollo
+                .
+              </b>
+               
+              Gentileza: La Causa Nikkei
+            </a>
+          </h2>
+          <h4
+            class="com-date"
+          >
+            29 de octubre de 2019
+          </h4>
+        </div>
+      </article>
+    </div>
+    <div>
+      <article
+        class="mod-caja-nota w-100-mobile"
+      >
+        <section
+          class="cont-figure"
+        >
+          <a
+            class="figure"
+            href=""
+          >
+            <picture
+              class="content-pic picture"
+            >
+              <img
+                alt=""
+                class="content-img"
+                src="https://resizer.glanacion.com/resizer/nIGmOwu8U_ygfC526dGpOi65qQM=/0x300/filters:quality(75)/arc-anglerfish-arc2-prod-lanacionar/public/HNBB2ZOAQBG2TPIF2HAROBZBEA.jpg"
+              />
+            </picture>
+          </a>
+        </section>
+        <div
+          class="mod-caja-nota__descrip"
+        >
+          <h2
+            class="com-title-acu"
+          >
+            <a
+              href=""
+            >
+              <b>
+                Arroz chaufa de mariscos
+                .
+              </b>
+               
+              Gentileza: La Causa Nikkei
+            </a>
+          </h2>
+          <h4
+            class="com-date"
+          >
+            29 de octubre de 2019
+          </h4>
+        </div>
+      </article>
+    </div>
+    <div>
+      <article
+        class="mod-caja-nota w-100-mobile"
+      >
+        <section
+          class="cont-figure"
+        >
+          <a
+            class="figure"
+            href=""
+          >
+            <picture
+              class="content-pic picture"
+            >
+              <img
+                alt=""
+                class="content-img"
+                src="https://resizer.glanacion.com/resizer/mCQ5WnkyAf-2DwY2uaQgwCU073c=/0x300/filters:quality(75)/arc-anglerfish-arc2-prod-lanacionar/public/HNXNGD4G2RBMJABKQXMSBKFFQQ.jpg"
+              />
+            </picture>
+          </a>
+        </section>
+        <div
+          class="mod-caja-nota__descrip"
+        >
+          <h2
+            class="com-title-acu"
+          >
+            <a
+              href=""
+            >
+              <b>
+                Quiche de espinacas y cherries
+                .
+              </b>
+               
+              Quiche de espinacas y cherries
+            </a>
+          </h2>
+          <h4
+            class="com-date"
+          >
+            24 de octubre de 2019
+          </h4>
+        </div>
+      </article>
+    </div>
+    <div>
+      <div
+        class="banner --small --mobile"
+      />
+      <article
+        class="mod-caja-nota w-100-mobile"
+      >
+        <section
+          class="cont-figure"
+        >
+          <a
+            class="figure"
+            href=""
+          >
+            <picture
+              class="content-pic picture"
+            >
+              <img
+                alt=""
+                class="content-img"
+                src="https://resizer.glanacion.com/resizer/SjHEgKj7q6cEWt1IRDV_l3vfckU=/0x300/filters:quality(75)/arc-anglerfish-arc2-prod-lanacionar/public/BUBULLH325AQJMVEC3E2YCKZ5E.jpg"
+              />
+            </picture>
+          </a>
+        </section>
+        <div
+          class="mod-caja-nota__descrip"
+        >
+          <h2
+            class="com-title-acu"
+          >
+            <a
+              href=""
+            >
+              <b>
+                Pan “crunchy” de manzanas y dulce de leche
+                .
+              </b>
+               
+              Pan “crunchy” de manzanas y dulce de leche
+            </a>
+          </h2>
+          <h4
+            class="com-date"
+          >
+            10 de octubre de 2019
+          </h4>
+        </div>
+      </article>
+    </div>
+    <div>
+      <article
+        class="mod-caja-nota w-100-mobile"
+      >
+        <section
+          class="cont-figure"
+        >
+          <a
+            class="figure"
+            href=""
+          >
+            <picture
+              class="content-pic picture"
+            >
+              <img
+                alt=""
+                class="content-img"
+                src="https://resizer.glanacion.com/resizer/DhlLQaGqB9cSuTfeZNuWOutf8yo=/0x300/filters:quality(75)/arc-anglerfish-arc2-prod-lanacionar/public/LRLRVBME7BFHRBFGPFZL3AIMYM.jpg"
+              />
+            </picture>
+          </a>
+        </section>
+        <div
+          class="mod-caja-nota__descrip"
+        >
+          <h2
+            class="com-title-acu"
+          >
+            <a
+              href=""
+            >
+              <b>
+                Solomillo de cerdo con coliflor
+                .
+              </b>
+               
+              Solomillo de cerdo con coliflor
+            </a>
+          </h2>
+          <h4
+            class="com-date"
+          >
+            10 de julio de 2019
+          </h4>
+        </div>
+      </article>
+    </div>
+    <div>
+      <article
+        class="mod-caja-nota w-100-mobile"
+      >
+        <section
+          class="cont-figure"
+        >
+          <a
+            class="figure"
+            href=""
+          >
+            <picture
+              class="content-pic picture"
+            >
+              <img
+                alt=""
+                class="content-img"
+                src="https://resizer.glanacion.com/resizer/vmLXl1v557gOkxvfWY_KikQP4HY=/0x300/filters:quality(75)/arc-anglerfish-arc2-prod-lanacionar/public/WWWMIYFK5BGVDL5OOL7SGAXESA.jpg"
+              />
+            </picture>
+          </a>
+        </section>
+        <div
+          class="mod-caja-nota__descrip"
+        >
+          <h2
+            class="com-title-acu"
+          >
+            <a
+              href=""
+            >
+              <b>
+                Tarta de chocolate y avellana
+                .
+              </b>
+               
+              Gentileza: Hotel Club Francés
+            </a>
+          </h2>
+          <h4
+            class="com-date"
+          >
+            4 de junio de 2019
+          </h4>
+        </div>
+      </article>
+    </div>
+  </section>
+</div>
+`;

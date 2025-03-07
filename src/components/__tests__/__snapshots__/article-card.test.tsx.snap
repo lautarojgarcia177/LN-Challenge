@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleCard coincide con la snapshot 1`] = `
+<div>
+  <article
+    class="mod-caja-nota w-100-mobile"
+  >
+    <section
+      class="cont-figure"
+    >
+      <a
+        class="figure"
+        href=""
+      >
+        <picture
+          class="content-pic picture"
+        >
+          <img
+            alt=""
+            class="content-img"
+            src="https://example.com/image.jpg"
+          />
+        </picture>
+      </a>
+    </section>
+    <div
+      class="mod-caja-nota__descrip"
+    >
+      <h2
+        class="com-title-acu"
+      >
+        <a
+          href=""
+        >
+          <b>
+            Titulo de ejemplo
+            .
+          </b>
+           
+          Subtitulo de ejemplo
+        </a>
+      </h2>
+      <h4
+        class="com-date"
+      >
+        6 de diciembre de 2019
+      </h4>
+    </div>
+  </article>
+</div>
+`;
