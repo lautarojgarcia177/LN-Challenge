@@ -39,9 +39,7 @@ export function ArticlesProvider({
   );
 
   function loadMoreArticles(amount: number) {
-    setAmountToDisplay((current) =>
-      Math.min(current + amount, subtype7Articles.length)
-    );
+    setAmountToDisplay((current) => current + amount);
   }
 
   return (
