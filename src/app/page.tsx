@@ -1,95 +1,60 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import LoadMoreButton from "@/components/load-more-button";
+import PageTitle from "@/components/page-title";
+import TagsSection from "@/components/tags-section";
+import SidebarLayout from "./sidebar-layout";
+import ArticleGrid from "@/components/article-grid";
+import checkRequiredEnvVars from "@/lib/validate-env";
+import { ArticlesProvider } from "@/context/articles-context";
+import { getArticles } from "@/lib/fetch-data-API";
+import TopBanner from "@/components/banners/top-banner";
+import StickyBanner from "@/components/banners/sticky-banner";
+import ModRanking from "@/components/mod-ranking";
 
-export default function Home() {
+export default async function HomePage() {
+  // Verificar que las variables de entorno esten cargadas
+  checkRequiredEnvVars();
+
+  // Carga inicial de los datos desde el servidor
+  const { articles = [] } = await getArticles();
+
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+    <main>
+      <TopBanner />
+      <StickyBanner />
+      {/* Se proveen los datos utilizando Context */}
+      <ArticlesProvider articles={articles} initialAmountToDisplay={9}>
+        <SidebarLayout
+          main={
+            <>
+              <div className="row">
+                <PageTitle
+                  title="Acumulado Grilla"
+                  className="com-titleWithfollow hlp-marginBottom-15"
+                />
+              </div>
+              <div className="row">
+                <TagsSection />
+              </div>
+              <ArticleGrid />
+              <section className="row">
+                <div className="col-12 hlp-text-center hlp-margintop-40">
+                  <LoadMoreButton />
+                </div>
+              </section>
+            </>
+          }
+          aside={
+            <>
+              <div className="banner --desktop --large"></div>
+              <div className="com-ranking hlp-none hlp-tablet-none">
+                <h2 className="com-title-section-m">Recetas más leídas</h2>
+                <ModRanking />
+              </div>
+              <div className="banner --desktop --large"></div>
+            </>
+          }
         />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </ArticlesProvider>
+    </main>
   );
 }
